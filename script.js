@@ -46,3 +46,10 @@ function frame() {
         changeDirectionY();
     }
 }
+
+let text = document.querySelector('h1');
+let a = setTimeout(() => {text.innerHTML = 'Даша та май бога в серці'}, 4000);
+let b = setTimeout(() => {text.innerHTML = 'та йоб'}, 8000);
+let c = setTimeout(() => {text.innerHTML = 'Даша блять'}, 12000);
+let d = setTimeout(() => {text.innerHTML = 'ойоооо'}, 15000);
+let f = setTimeout(() => {text.innerHTML = 'ти як сюди си добрала опше'}, 100000);

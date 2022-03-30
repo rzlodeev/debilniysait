@@ -5,6 +5,10 @@
         width: 30vw !important;
         height: 10vh !important;
     }
+
+    h2 {
+        opacity: 0.1 !important;
+    }
 }
 
 body {
@@ -13,11 +17,16 @@ body {
 
 .h1Container {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-h1 {
+h1, h2 {
     font-family: "Oswald";
+}
+
+h2 {
+    opacity: 0;
 }
 
 button {
