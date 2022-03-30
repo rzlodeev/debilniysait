@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
+@media only screen and (max-width: 600px) {
+    button {
+        width: 30vw;
+        height: 10vh;
+    }
+}
+
 body {
     background-color: rgb(241, 240, 223);
 }
