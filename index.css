@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+    background-color: rgb(241, 240, 223);
+}
+
+.h1Container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Oswald";
+}
+
+button {
+    border-width: 1px;
+    border-color: white;
+    border-radius: 10px;
+    width: 10vw;
+    height: 5vh;
+    background-color:rgb(113, 203, 207);
+    font-family: "Oswald";
+    font-size: 2vh;
+    position:absolute;
+    box-shadow: none;
+    left: 45vw;
+    top: 47.5vh;
+}
